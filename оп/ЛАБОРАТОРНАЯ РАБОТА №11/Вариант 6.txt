@@ -1,0 +1,12 @@
+Варенье 4 
+from math import *
+b = [int(n) for n in input().split()]
+l = max(b)
+z  = min(b)
+print(l,z)
+for i in range(0,len(b)):
+  if b[i] == l:
+    k = i
+  if b[i] == z:
+    x = i
+print(k*x)

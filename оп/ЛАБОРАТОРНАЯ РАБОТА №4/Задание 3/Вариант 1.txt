@@ -1,0 +1,9 @@
+from math import *
+A = float(input())
+B = float(input())
+X = e**sqrt(A)
+Z = A*sqrt(abs(A+A*B**2))
+q = sqrt(sin(X**2)+ log(Z,2.7))
+w = cos(2*X**2)+tan(Z)**2
+e = q/w
+print (e)

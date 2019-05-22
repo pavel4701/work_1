@@ -1,0 +1,8 @@
+Варенье 3
+from math import *
+b = [int(n) for n in input().split()]
+c = []
+for i in range(0,len(b)):
+  if b[i]<0:
+    c.append(b[i]*4)
+print(c)

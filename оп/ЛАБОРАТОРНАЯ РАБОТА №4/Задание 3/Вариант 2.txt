@@ -1,0 +1,13 @@
+from math import *
+
+A = int(input("A"))
+
+B = int(input("B"))
+
+Z = A * sqrt(fabs((A ** 2) + A * B))
+
+X = exp(A + B)
+
+Y  = sqrt(log10(X) + sin(Z)) / cos(X) ** 2 + tan(Z)*2
+
+print(Y)

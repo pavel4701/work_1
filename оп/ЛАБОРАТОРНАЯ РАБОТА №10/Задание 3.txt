@@ -1,0 +1,36 @@
+1 Вариант:
+import random
+def zd1(n):
+    p = [random.randint(-10,5) for i in range(n)]
+    i = 0
+    col = 0
+    summ = 0
+    print(p)
+    
+    for i in range(n):
+        if p[i] < -2:
+            col +=1
+            summ = summ + p[i]
+            print("nomer v spiske: ",i)
+            i +=1
+    print("coli4estvo= ", col)
+    print("summa= ", summ)
+zd1(10)
+Вариант 3
+from random import random
+Y = 20
+v = [0] * Y
+even = []
+for i in range(Y):
+    v[i] = int(random() * 30) - 10
+print(v)
+q = 0
+s = 0
+for i in range(Y):
+    if v[i] <= -2:
+        s += v[i]
+        q += 1
+        even.append(i)
+print(q)
+print(s)
+print(even)

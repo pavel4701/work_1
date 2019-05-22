@@ -1,0 +1,8 @@
+Варенье 1 
+from math import *
+n = [int(n) for n in input().split()] 
+k = 0
+for i in range(1,len(n)):
+  if n[i] < n[i-1]:
+    k+=1
+print(k)

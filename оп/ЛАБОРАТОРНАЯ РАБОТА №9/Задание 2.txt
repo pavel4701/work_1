@@ -1,0 +1,15 @@
+1 Вариант:
+
+n= int(input("skolko budet 4isel: "))
+alfa = int(input("alfa = "))
+i = 0
+while n>0:
+    n=n-1
+    if n < alfa and n>0:
+        i=i+1
+print("4isel menishe alfa: ")
+print(i)
+print("0 ne s4itaetsy") 
+
+2 Вариант:
+

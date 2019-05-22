@@ -1,0 +1,40 @@
+Вариант  1 
+from math import *
+k = int(input())
+l = int(input())
+m = int(input())
+print(k,l,m)
+print(max(k,l,m))
+if l>k and l>m:
+     l=max(k,m)
+     d=min(k,l,m)
+elif l<k and l<m:
+     d=min(k,l,m)
+     l=min(k,m)
+else:
+    d=m
+print(l)
+m=d
+print(min(k,l,m))
+
+2 способ 
+from math import *
+k = int(input())
+l = int(input())
+m = int(input())
+if k > min(k,l,m) and k < max(k,l,m):
+  sred = k
+elif l > min(k,l,m) and l < max(k,l,m):
+  sred = l
+elif m > min(k,l,m) and m < max(k,l,m):
+  sred = m
+print(max(k,l,m),sred,min(k,l,m))
+
+----------------------------------------------------------
+2 вариант 
+from math import *
+a = int(input())
+b = int(input())
+c = int(input())
+d = (5 * max(a,b,c)-4*min(a,b,c)/(8.3+(max(a,b,c)/min(a,b,c))))
+print(d)

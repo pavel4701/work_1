@@ -1,0 +1,11 @@
+from math import *
+b = [int(n) for n in input().split()]
+l = 1
+for i in range(0,len(b)):
+  if b[i] == 1:
+    k = i+1
+    break
+for i in range (k-1,len(b)):
+  if b[i]>0:
+    l = l * b[i]
+print(l)

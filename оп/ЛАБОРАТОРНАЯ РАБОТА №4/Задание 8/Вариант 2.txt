@@ -1,0 +1,3 @@
+k  = int(input())
+
+print (k, 'dnu sootvetstvuet ', k % 7, ' den nedely' )

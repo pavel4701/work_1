@@ -1,0 +1,31 @@
+Вариант 1 
+from math import *
+n = [abs(int(n)) for n in input().split()] + [0]
+k = 0
+p= []
+for i in range(0,len(n)-2):
+    q = n[i+1] - n[i]
+    p.append(q)
+for i in range(0,len(p)):
+    if p[q]==p[q+1]:
+        k+=1
+    else:
+        k+=2
+if k == p.count(q):
+    print('da')
+else:
+    print('net')
+------------------------------------------------
+Варенье 2 
+from math import *
+n = [abs(int(n)) for n in input().split()] + [0]
+k = 1
+for i in range(0,len(n)-1):
+    if n[i]< n[i+1]:
+        k+=1
+    else:
+        k+=0
+if (len(n)-1)==k:
+    print('vozrastaet')
+else:
+    print('-')

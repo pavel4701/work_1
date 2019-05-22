@@ -1,0 +1,10 @@
+from math import *
+x=0
+while x <= 10:
+    if x <=5:
+        print('y= -1')
+    elif 5<x and x<=8:
+        print('y= ', x**2)
+    elif x>8:
+        print('y= ', sin(x))
+    x+=0.1

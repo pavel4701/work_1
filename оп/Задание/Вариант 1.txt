@@ -1,0 +1,5 @@
+print ('Vvedite 3 simvola')
+a = input()
+b = input()
+c = input()
+print (ord(a),ord(b),ord(c))

@@ -1,0 +1,4 @@
+print ('Vvedite 2 simvola')
+a = input()
+b = input ()
+print ('1 simvol-',a,'kod-',ord(a),'',"2 simvol-",b,'kod-',ord(b))

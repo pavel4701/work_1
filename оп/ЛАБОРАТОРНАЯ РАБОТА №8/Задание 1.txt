@@ -1,0 +1,19 @@
+1 Вариант:
+
+i = 0
+b = -21
+
+while b < 100:
+    i=i+b
+    b = b+1
+print(i)
+
+2 Вариант:
+
+i = 0
+b = -41
+
+while b < 50:
+    i=i+b
+    b = b+1
+print(i)

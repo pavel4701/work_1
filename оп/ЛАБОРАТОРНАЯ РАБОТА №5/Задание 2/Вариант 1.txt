@@ -1,0 +1,21 @@
+¬ариант 1. ƒано 2 числа x и y. ≈сли произведение этих чисел больше 100, то вычислить удвоенный 
+куб первого числа и второе число разделить на 2.
+
+from math import *
+
+x = int(input("Vvedite x: "))
+
+y = int(input("Vvedite y: "))
+
+c = x*y
+if c>100:
+    
+a = int(2*(x**3))
+    
+b = float(y/2)
+    
+print (a,b)
+
+else:    
+    
+print (x,y)

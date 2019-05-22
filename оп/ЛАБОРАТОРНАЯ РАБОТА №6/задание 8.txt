@@ -1,0 +1,7 @@
+вариант1
+a=int(input())
+
+print(int(a//3600),' 4asov')
+
+print(int(round((a%3600)/60)), ' minut')
+вариент2

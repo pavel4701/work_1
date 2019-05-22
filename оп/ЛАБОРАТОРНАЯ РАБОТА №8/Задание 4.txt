@@ -1,0 +1,23 @@
+1 Вариант:
+
+x = int(input("vvedite kol-vo ciklov"))
+i = 0
+a = 4
+b = 0
+while i<x:
+    a = a / 10
+    b = b+a
+    i = i+1
+print(b)
+
+2 Вариант:
+
+x = int(input("vvedite kol-vo ciklov"))
+i = 0
+a = 5
+b = 0
+while i<x:
+    a = a / 10
+    b = b+a
+    i = i+1
+print(b)

@@ -1,0 +1,14 @@
+Вариант 1
+a = float(input())
+b = float(input())
+d = (max(a,b)**5 - 3.2*min(a,b))/(1+min(a,b))
+print(d)
+----------------------------------------------
+Вариант 2
+
+a = float(input())
+b = float(input())
+c = max(a,b)
+e = min(a,b)
+d = (5 * (c+2)-4 *(1-e))/(3+(c/e))
+print(d)

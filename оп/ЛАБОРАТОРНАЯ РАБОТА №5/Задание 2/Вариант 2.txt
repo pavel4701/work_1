@@ -1,0 +1,22 @@
+Вариант 2. Дано 2 числа x и y. Если сумма этих чисел 
+больше 20, то вычислить утроенный квадрат первого числа и куб второго числа.
+
+from math import *
+
+x = int(input("Vvedite x: "))
+
+y = int(input("Vvedite y: "))
+
+c = x*y
+
+if c>20:
+    
+a = int(3*(x**2))
+    
+b = int(y**3)
+    
+print (a,b)
+
+else:    
+    
+print (x,y)

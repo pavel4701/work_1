@@ -1,0 +1,43 @@
+вариант1
+
+
+from collections import *
+s = input()
+d = deque(s)
+t = (d.count('t'))
+k = (d.count('k'))
+r = (d.count('r'))
+if t>k and t>r:
+    print('bolshe vsego t: ', t)
+elif k>t and k>r:
+    print('bolshe vsego k: ', k)
+elif r>t and r>k:
+    print('bolshe vsego r: ', r)
+else:
+    print('prisutstvuyut ravnie znahcenia')
+
+
+
+вариент2
+
+
+from collections import *
+s = input()
+d = deque(s)
+b = (d.count('b'))
+e = (d.count('e'))
+s = (d.count('s'))
+t = (d.count('t'))
+bcount=0
+if b>0:
+    bcount+=1
+if e>0:
+    bcount+=1
+if s>0:
+    bcount+=1
+if t>0:
+    bcount+=1
+if bcount>=4:
+    print('tut est best')
+else:
+    print('slova net')

@@ -1,0 +1,20 @@
+Вариант1
+
+a, b = map(int, input('Vvedite proshloe i nineshnee: ').split())
+
+x=b-a
+a=int(input('Vvedite kolvo prosro4enix Dney: '))
+
+KW=100
+
+pen=0.03
+
+a=(x*KW)+(x*KW)*pen*a
+
+print(a)
+
+вариант5
+
+a=int(input('vvedite rastoyanie: '))
+
+print(a*0.0254, ('M'), a*2.54, ('cm'), a*25.4, ('mm'))

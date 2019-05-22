@@ -1,0 +1,28 @@
+Вариант 1
+from math import *
+n = [n for n in input().split()] + ['.']
+for i in range(0,len(n)-1):
+  v = n[i]
+  if v == "*":
+    print(n[i+1])
+    break
+--------------------------------------------
+Вариант 2 
+from math import *
+n = [n for n in input().split()] + ['.']
+for i in range(0,len(n)-1):
+  v = n[i]
+  if v == "f":
+    print(n[i+1])
+
+-------------------------------------------
+Вариант 3 
+from math import *
+n = [n for n in input().split()] + ['.']
+for i in range(0,len(n)-1):
+  v = n[i]
+  if v in "012345679":
+    x = n[i+1]
+    print(x[0])
+    break
+   

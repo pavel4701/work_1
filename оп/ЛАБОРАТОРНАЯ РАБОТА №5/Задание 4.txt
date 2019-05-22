@@ -1,0 +1,15 @@
+1 Вариант:
+
+a = str(input())
+if a >= "a" and a<= "g":
+    print(chr(ord(a)-1))
+else:
+    print(chr(ord(a)+1))
+
+2 Вариант:
+
+a = str(input())
+if a >= "a" and a<= "g":
+    print(a,a)
+else:
+    print("-")

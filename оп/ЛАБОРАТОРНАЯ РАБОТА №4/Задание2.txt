@@ -1,0 +1,14 @@
+Задание3
+Вар1
+
+from math import *
+a=int(input('введите а: '))
+print((cos(a)+sin(a))/(cos(a)-sin(a)))
+print((tan(2*a)+(1/cos(2*a))))
+
+вар2
+
+from math import *
+b=int(input('Vvedite b: '))
+print((sqrt(2*b+2*sqrt(b**2-4)/(sqrt(b**2-4)+b+2))))
+print(1/(sqrt(b+2)))

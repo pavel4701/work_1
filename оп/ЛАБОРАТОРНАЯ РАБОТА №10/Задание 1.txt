@@ -1,0 +1,31 @@
+1 Вариант:
+
+import random
+def zd1(n):
+    A = [random.randint(1,12) for i in range(n)]
+    s = 0
+    
+    print(A)
+    for i in range(n):
+        if A[i] > 5:
+            s = s+A[i]
+            
+    print("summa= ", s)
+    
+zd1(10)
+
+3 Вариант:
+
+import random
+def zd1(n):
+    A = [random.randint(5,30) for i in range(n)]
+    s = 1
+    
+    print(A)
+    for i in range(n):
+        if A[i]< 10:
+            s = s*A[i]
+            
+    print("proizvedenie= ", s)
+    
+zd1(10)

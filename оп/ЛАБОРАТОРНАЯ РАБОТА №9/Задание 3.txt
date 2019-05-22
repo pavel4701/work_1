@@ -1,0 +1,21 @@
+Вариант 1 
+n = [float(n) for n in input().split()] + [0]
+q = n.count(2)
+for i in range(0,len(n)):
+  v = n[i]
+  if v == 2:
+    k = i
+    print(k,v)
+print(q)
+--------------------------------------------
+Вариант 2 
+n = [float(n) for n in input().split()] + [0]
+
+p = 0
+for i in range(0,len(n)):
+  v = n[i]
+  if v > 0:
+    k = i
+    p = p + n[i]
+    print(v,'-',k)
+print(p)

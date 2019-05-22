@@ -1,0 +1,171 @@
+Вариант 1
+
+x = int (input())
+y = int (input())
+print(x,y)
+if x > y:
+    x = x * 5
+else:
+    y = y * 5
+print (x,y)
+
+----------------------------
+Вариант 2
+
+x = int (input())
+y = int (input())
+print(x,y)
+if x < y:
+    x = x / 10
+else:
+    y = y / 10
+print (x,y)
+
+-------------------------------------
+Вариант 3 
+x = int (input())
+y = int (input())
+print(x,y)
+if (x * y>100):
+    x = (2*x)**3
+else:
+    print('-')
+print (x,y)
+----------------
+Вариант 4
+
+x = int (input())
+y = int (input())
+print(x,y)
+if (x + y>20):
+    x = (3*x)**2
+else:
+    y = y**3
+print (x,y)
+-------------------------------------
+Вариант 5 
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if (x * y>50):
+  x = 2*sqrt(x)
+else:
+  print('-')
+print (x,y)
+
+---------------------------------------
+Вариант 6
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if (x + y>100):
+  x = 2*sin(x)
+else:
+  print('-')
+print (x,y)
+----------------------------------------
+Вариант 7
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if x > y:
+  x = x**2
+else:
+  y = y**2
+print (x,y)
+-----------------------------------------
+Вариант 8
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if (x * y > 100):
+  y = 3*tan(y)
+else:
+  x = x*5
+print (x,y)
+
+
+--------------------------------------------
+Вариант 9
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if x * y > 20:
+  y = cos(x)/sin(x)
+else:
+  x = x / 3
+print (x,y)
+-------------------------------------------
+Вариант 10 
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if x > y:
+  y = y / 2
+else:
+  x = x / 2
+print (x,y)
+
+------------------------------------------
+Вариант 11
+
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if (x * y>30):
+  x = 2*(cos(x)/sin(x))
+else:
+  y = y / 2
+print (x,y)
+-------------------------------------------
+Вариант 12
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if (x * y>40):
+  x = 2*(tan(x))
+else:
+  y = y * 4
+print (x,y)
+--------------------------------------------
+Вариант 13
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if (x < y):
+  x = sqrt(x)
+  
+else:
+  y = sqrt(y)
+print (x,y)
+----------------------------------------------
+Вариант 14 
+
+from math import *
+x = int (input())
+y = int (input())
+print(x,y)
+if ( x * y > 50):
+  x = 2*(cos(x))
+  
+else:
+  y = 3 * y
+print (x,y)

@@ -1,0 +1,3 @@
+dig = input()
+next1 = int(dig)
+print((next1+1))

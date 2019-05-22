@@ -1,0 +1,52 @@
+Вариант 1
+from random import random
+X = 10
+z = [0] * X
+for i in range(X):
+    z[i] = int(random() * 10)
+print(z)
+s = 0
+for i in range(X):
+    if z[i] > 0:
+        s += z[i]
+print(s)
+
+from random import random
+Y = 10
+v = [0] * Y
+for i in range(Y):
+    v[i] = int(random() * 10)
+print(v)
+q = 0
+for i in range(Y):
+    if v[i] > 0:
+        q += v[i]
+print(q)
+print(q + s)
+
+
+Вариант 3
+from random import random
+X = 10
+z = [0] * X
+for i in range(X):
+    z[i] = int(random() * 10)
+print(z)
+s = 0
+for i in range(X):
+    if z[i] == 0:
+        s += 1
+print(s)
+
+from random import random
+Y = 10
+v = [0] * Y
+for i in range(Y):
+    v[i] = int(random() * 10)
+print(v)
+q = 0
+for i in range(Y):
+    if v[i] == 0:
+        q += 1
+print(q)
+print(s + q)

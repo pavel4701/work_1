@@ -1,0 +1,31 @@
+Вариант 3
+from random import random
+Y = 25
+v = [0] * Y
+even = []
+for i in range(Y):
+    v[i] = int(random() * 4) + 2
+print(v)
+q = 0
+for i in range(Y):
+    if v[i] == 5:
+        q += 1
+        even.append(i)
+print(q)
+print(even)
+
+Вариант 4
+from random import random
+Y = 25
+v = [0] * Y
+even = []
+for i in range(Y):
+    v[i] = int(random() * 4) + 2
+print(v)
+q = 0
+for i in range(Y):
+    if v[i] == 2:
+        q += 1
+        even.append(i)
+print(q)
+print(even)

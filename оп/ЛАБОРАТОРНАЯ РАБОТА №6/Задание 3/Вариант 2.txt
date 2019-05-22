@@ -1,0 +1,15 @@
+from math import *
+
+a = float(input("Wwedite temperatyry"))
+if a<=-50 and a>=-20:
+    print("Ochen xolodno")
+elif a<=-19 and a>=-10:
+    print("Xolodno")
+elif a<=-9 and a>=9:
+    print("Normalno")
+elif a<=10 and a>=19:
+    print("Teplo")
+elif a<=50 and a>=20:
+    print("Ochen teplo")
+else:
+    print("Oshibka")

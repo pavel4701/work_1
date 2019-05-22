@@ -1,0 +1,17 @@
+Вариант 1
+from math import *
+x= -3
+while x <=2.2:
+  y = (x-1)**2-e**(-x)
+  print('x=',round(x,2),'y=',y)
+  x+=0.2
+-------------------------------------
+Вариант 2
+from math import *
+x= -1.5
+while x <=1.5:
+  y = cos(x*pi)-x**3
+  print('x=',round(x,2),'y=',y)
+  x+=0.2
+
+

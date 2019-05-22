@@ -1,0 +1,35 @@
+вариант 1
+
+
+from math import *
+
+x1, y1, x2, y2 =map(int, input('Vvedite koordinati: ').split())
+a= sqrt(x1**2+y1**2)
+b= sqrt(x2**2+y2**2)
+
+if a<b:
+
+    print ('A blije')
+
+else:
+
+    print ('B blije')
+
+
+
+
+
+
+вариант 4
+
+from math import *
+
+x1, y1, x2, y2 = map(int, input('Vvedite koordinati: ').split())
+
+if x1<x2:
+
+    print ('A blije')
+
+else:
+
+    print ('B blije')

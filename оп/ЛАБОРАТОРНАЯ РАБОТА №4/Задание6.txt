@@ -1,0 +1,29 @@
+Вариант1
+
+from random import *
+a=int(input('Vvedite chislo ot 0 do 36: '))
+b=int(randint(0,36))
+if a==b:
+  print('Вы выйграли, выпало число: ', b)
+else:
+    print('Вы проиграли, выпало число: ', b)
+
+вариант2
+
+from termcolor import *
+from random import *
+a=int(input('Vvedite chislo 1-black 0-red: '))
+b=int(randint(0,36))
+print(b)
+if b%2==0:
+ b=0
+ if b==a:
+  print(colored('Вы выйграли', 'green'))
+ else:
+  print(colored('Вы проиграли', 'red'))
+else:
+  b=1
+  if b==a:
+    print(colored('Вы выйграли', 'green'))
+  else:
+   print(colored('Вы проиграли', 'red'))

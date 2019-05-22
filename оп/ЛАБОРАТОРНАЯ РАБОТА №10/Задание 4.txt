@@ -1,0 +1,61 @@
+1 Вариант:
+import random
+def zd1(n):
+    p = [random.randint(-10,10) for i in range(n)]
+    q = [random.randint(-9,11) for i in range(n)]
+    first = 0
+    second = 0
+    i = 0
+    print(p)
+    print(q)
+    for i in range(n):
+        if p[i] < 0:
+            first +=1
+            i +=1
+    print("first ", first)
+    i = 0
+    for i in range(n):
+        if q[i] < 0:
+            second +=1
+            i+=1
+    print("second ", second)
+
+    if first > second:
+        print("1 >2: ", first)
+    elif first == second:
+        print("1=2: ", second)
+    else:
+        print("2>1: ", second)
+
+zd1(10)
+
+2 Вариант:
+import random
+def zd1(n):
+    p = [random.randint(-10,10) for i in range(n)]
+    q = [random.randint(-9,11) for i in range(n)]
+    first = 0
+    second = 0
+    i = 0
+    print(p)
+    print(q)
+    for i in range(n):
+        if p[i] > 0:
+            first +=1
+            i +=1
+    print("first ", first)
+    i = 0
+    for i in range(n):
+        if q[i] > 0:
+            second +=1
+            i+=1
+    print("second ", second)
+
+    if first > second:
+        print("1 >2: ", first)
+    elif first == second:
+        print("1=2: ", second)
+    else:
+        print("2>1: ", second)
+
+zd1(10)

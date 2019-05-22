@@ -1,0 +1,4 @@
+from math import *
+x = int(input())
+f = ((1+((x**2)/sqrt(2))+((x**3)/sqrt(3)))/(1+(5/(1+abs(x)))))
+print (f)

@@ -1,0 +1,51 @@
+Вариант 1
+import numpy
+from math import *
+k = float(input())
+i = 0
+q = log(k,e)
+n = e**k
+while q<=k<=n:
+  if k%1==0:
+    i+=1
+  k+=1
+print(i)
+
+
+2 способ(или нет)
+import numpy
+from math import *
+k = float(input())
+i = 0
+for k in numpy.arange(log(k,e),e**k):
+  if k%1==0:
+    i+=1
+  k+=1
+print(i)
+------------------------------------
+Вариант 2
+
+import numpy
+from math import *
+k = float(input())
+i = 0
+q = sin(k)
+n = e**k
+while q<=k<=n:
+  if k%1==0:
+    i+=1
+  k+=1
+print(i)
+---------------------------------
+2 способ
+import numpy
+from math import *
+k = float(input())
+i = 0
+
+for k in numpy.arange(sin(k,e),e**k):
+  if k%1==0:
+    i+=1
+  k+=1
+print(i)
+---------------------------------

@@ -1,0 +1,19 @@
+Вариант 1 
+from math import *
+n = [float(n) for n in input().split()] + [0]
+p = []
+for i in range(0,len(n)-1):
+  v = n[i]
+  q = sin(v)
+  p.append(q)
+print(min(p))
+-----------------------------------------------
+Вариант 2 
+from math import *
+n = [float(n) for n in input().split()] + [0]
+p = []
+for i in range(0,len(n)-1):
+  v = n[i]
+  q = log(v,10)
+  p.append(q)
+print(min(p))

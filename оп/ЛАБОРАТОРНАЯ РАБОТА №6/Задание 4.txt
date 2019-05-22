@@ -1,0 +1,24 @@
+Вариант 1 
+from math import *
+A = int(input())
+X = int(input())
+if (-5<=A*X<=0) or (3<=A*X<=5):
+  print(A*sin(X)**2)
+elif  (0<A*X<3):
+  print(A*cos(X)**2)
+elif (A*X<-5) or(A*X>5):
+  print(log(1+abs(X+A**2),2.777))
+
+
+------------------------------------------
+Вариант 2
+
+from math import *
+A = int(input())
+X = int(input())
+if (-4<=A*X<=-2) or (0<=A*X<=4):
+  print(sqrt(A*cos(X)**2))
+elif  (-2<A*X<0):
+  print(A**2*cos(X)**2+1)
+elif (A*X<-4) or(A*X>4):
+  print(log(1+abs(X+A**2),2.77))

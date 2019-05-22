@@ -1,0 +1,9 @@
+a = float(input("Wwedit gradus"))
+ 
+ho = 30
+mu = ho/60
+ 
+h = a//ho
+m = (a / 30 * 60) % 60
+ 
+print(h, m)

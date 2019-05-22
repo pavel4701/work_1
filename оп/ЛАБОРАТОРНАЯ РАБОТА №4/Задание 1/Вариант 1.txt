@@ -1,0 +1,9 @@
+a = int(input())
+b = int(input())
+c = int(input())
+x = int(input())
+y = int(input())
+z = int(input())
+
+f = a + b*x + c*y*z+(1+x)**5
+print (f)

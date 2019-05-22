@@ -1,0 +1,48 @@
+Вариант 1
+
+a = input().isdigit()
+b = input().isdigit()
+c = input().isdigit()
+n = 0
+if a is True:
+   n+=1
+if b is True:
+  n+=1
+if c is True:
+  n+=1
+print (n)
+-------------------------------
+Вариант 2
+
+a = input().isdigit()
+b = input().isdigit()
+c = input().isdigit()
+d = input().isdigit()
+n = 0
+if a is True:
+   n+=1
+if b is True:
+  n+=1
+if c is True:
+  n+=1
+if d is True:
+   n+=1
+print (n)
+--------------------------------
+Вариант 3 
+
+a = input().isalpha()
+b = input().isalpha()
+c = input().isalpha()
+d = input().isalpha()
+n = 0
+if a is True:
+   n+=1
+if b is True:
+  n+=1
+if c is True:
+  n+=1
+if d is True:
+   n+=1
+print (n)
+

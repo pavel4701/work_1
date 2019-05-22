@@ -1,0 +1,17 @@
+Варенье  1 
+from math import *
+n = [int(n) for n in input().split()]
+p = n[-1]
+for i in range(0,len(n)):
+  n[i-1]=n[i]
+n[-2]=p
+print(n)
+-------------------------------------
+Варенье 2 
+from math import *
+n = [int(n) for n in input().split()]
+p = n[-1]
+for i in range(len(n)-1,-1,-1):
+  n[i]= n[i-1]
+n[0]=p
+print(n)

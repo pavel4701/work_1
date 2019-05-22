@@ -1,0 +1,25 @@
+10 Вариант:
+
+import math
+x =2
+b=1
+c = 0
+n = int(input())
+while b<n:
+    x = (math.cos(x))**(b)
+    c = c+x
+    b = b+2
+print(c)
+
+11 Вариант:
+
+import math
+x = 1
+n= int(input())
+t = 2
+c = 0
+while x < n:
+    t = math.cos(((t)**x)*x)
+    c = t+c
+    x = x+2
+print(c)
